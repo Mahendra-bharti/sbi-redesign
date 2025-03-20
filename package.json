@@ -1,7 +1,5 @@
 {
   "homepage": "https://mahendra-bharti.github.io/sbi-clone",
-
-
   "name": "sbi-redesign",
   "private": true,
   "version": "0.0.0",
@@ -11,8 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
+ 
+  "deploy": "gh-pages -d dist"
+}
+
 
   },
   "dependencies": {
